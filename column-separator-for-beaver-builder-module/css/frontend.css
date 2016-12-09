@@ -1,0 +1,9 @@
+.bbcs-container {
+	position: relative;
+	z-index: 1;
+
+}
+
+.bbcs-container svg {
+	position: absolute;
+}
