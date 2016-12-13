@@ -33,7 +33,7 @@ FLBuilder::register_module( 'BSFBBColumnSeparator', array(
 							'tilt-right'	=> __( 'Tilt Right' , 'bb-column-separator' ),
 							'circle'		=> __( 'Circle' , 'bb-column-separator' ),
 							'curv-center'	=> __( 'Curv Center' , 'bb-column-separator' ),
-							//'zig-zag'		=> __( 'Zig Zag' , 'bb-column-separator' ),
+							'zig-zag'		=> __( 'Zig Zag' , 'bb-column-separator' ),
 
 						),
 						'default'			=> 'none'
