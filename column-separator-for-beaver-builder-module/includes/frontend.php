@@ -25,7 +25,13 @@
 		$shape_html = '<div class="'.$cs_classes.'"></div>';
 	}
 ?>
-
+<?php if ( FLBuilderModel::is_builder_active() ): ?>
+	<div class="bbcs-identify-container">
+		<div class="bbcs-identify">
+			Column Seperator (for backend only)
+		</div>
+	</div>
+<?php endif ?>
 <div class="bbcs-wrapper">
 	<div class="bbcs-container">
 		<?php echo $shape_html; ?>

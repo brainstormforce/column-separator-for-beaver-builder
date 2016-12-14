@@ -3,7 +3,7 @@
 class BSFBBColumnSeparator extends FLBuilderModule {
 	public function __construct() {
 		parent::__construct( array(
-			'name'			=> __('Column Seperator for Beaver Builder', 'bb-column-separator' ),
+			'name'			=> __('Column Seperator', 'bb-column-separator' ),
 			'description'	=> __( 'Column Separator for Beaver Builder ', 'bb-column-separator' ),
 			'category'		=> __('Advanced Modules', 'bb-column-separator' ),
 			'dir'			=> BB_COLUMN_SEPARATOR_DIR . 'column-separator-for-beaver-builder-module/',

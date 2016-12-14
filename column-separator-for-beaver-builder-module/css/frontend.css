@@ -1,9 +1,17 @@
 .bbcs-container {
 	position: relative;
 	z-index: 1;
-
 }
-
 .bbcs-container svg {
 	position: absolute;
+}
+.bbcs-identify-container {
+	position: relative;
+}
+.bbcs-identify {
+	position: absolute;
+    color: red !important;
+    z-index: 10;
+    -webkit-transform: translate(25%);
+    transform: translate(25%);
 }

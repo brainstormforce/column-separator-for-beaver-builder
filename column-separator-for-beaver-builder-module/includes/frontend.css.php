@@ -37,8 +37,8 @@
 }
 <?php elseif( $settings->bbcs_shape == 'tilt-right' && $settings->bbcs_position == 'top' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-tilt-right {
-	-webkit-transform: scaleX(-1)scaleY(-1);
-	transform: scaleX(-1)scaleY(-1);
+	-webkit-transform: scaleX(-1)scaleY(-1)translateX(1px);
+	transform: scaleX(-1)scaleY(-1)translateX(1px);
 }
 <?php elseif( $settings->bbcs_shape == 'tilt-right' && $settings->bbcs_position == 'bottom' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-tilt-right {
