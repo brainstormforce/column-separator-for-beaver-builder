@@ -3,66 +3,100 @@
 	-webkit-transform: scaleY(-1);
 	transform: scaleY(-1);
 	bottom: 0;
+    left: 0;
+}
+<?php elseif( $settings->bbcs_shape == 'triangle' && $settings->bbcs_position == 'top' ): ?>
+.fl-node-<?php echo $id; ?> .bbcs-triangle {
+    top: 0;
+    left: 0;
 }
 <?php elseif( $settings->bbcs_shape == 'left-triangle' && $settings->bbcs_position == 'top' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-left-triangle {
 	-webkit-transform: scaleY(-1);
 	transform: scaleY(-1);
 	top: 0;
+    left: 0;
 }
 <?php elseif( $settings->bbcs_shape == 'left-triangle' && $settings->bbcs_position == 'bottom' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-left-triangle {
 	bottom: 0;
+    left: 0;
 }
 <?php elseif( $settings->bbcs_shape == 'right-triangle' && $settings->bbcs_position == 'bottom' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-right-triangle {
 	-webkit-transform: scaleX(-1)translateX(1px);
 	transform: scaleX(-1)translateX(1px);
 	bottom: 0;
+    left: 0;
 }
 <?php elseif( $settings->bbcs_shape == 'right-triangle' && $settings->bbcs_position == 'top' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-right-triangle {
 	-webkit-transform: scaleY(-1)scaleX(-1)translateX(1px);
 	transform: scaleY(-1)scaleX(-1)translateX(1px);
 	top: 0;
+    left: 0;
 }
 <?php elseif( $settings->bbcs_shape == 'tilt-left' && $settings->bbcs_position == 'top' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-tilt-left {
 	-webkit-transform: scaleY(-1);
 	transform: scaleY(-1);
+    left: 0;
+    top: 0;
 }
 <?php elseif( $settings->bbcs_shape == 'tilt-left' && $settings->bbcs_position == 'bottom' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-tilt-left {
 	bottom: 0;
+    left: 0;
 }
 <?php elseif( $settings->bbcs_shape == 'tilt-right' && $settings->bbcs_position == 'top' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-tilt-right {
 	-webkit-transform: scaleX(-1)scaleY(-1)translateX(1px);
 	transform: scaleX(-1)scaleY(-1)translateX(1px);
+    left: 0;
+    top: 0;
 }
 <?php elseif( $settings->bbcs_shape == 'tilt-right' && $settings->bbcs_position == 'bottom' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-tilt-right {
 	-webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     bottom: 0;
+    left: 0;
+}
+<?php elseif( $settings->bbcs_shape == 'circle' && $settings->bbcs_position == 'top' ): ?>
+.fl-node-<?php echo $id; ?> .bbcs-circle {
+    top: 0;
+    left: 0;
 }
 <?php elseif( $settings->bbcs_shape == 'circle' && $settings->bbcs_position == 'bottom' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-circle {
     -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
     bottom: 0;
+    left: 0;
+}
+<?php elseif( $settings->bbcs_shape == 'curv-center' && $settings->bbcs_position == 'top' ): ?>
+.fl-node-<?php echo $id; ?> .bbcs-curv-center {
+    top: 0;
+    left: 0;
 }
 <?php elseif( $settings->bbcs_shape == 'curv-center' && $settings->bbcs_position == 'bottom' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-curv-center {
     -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
     bottom: 0;
+    left: 0;
+}
+<?php elseif( $settings->bbcs_shape == 'small-triangle' && $settings->bbcs_position == 'top' ): ?>
+.fl-node-<?php echo $id; ?> .bbcs-small-triangle {
+    top: 0;
+    left: 0;
 }
 <?php elseif( $settings->bbcs_shape == 'small-triangle' && $settings->bbcs_position == 'bottom' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-small-triangle {
     -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
     bottom: 0;
+    left: 0;
 }
 <?php elseif( $settings->bbcs_shape == 'zig-zag' && $settings->bbcs_position == 'top' ): ?>
 .fl-node-<?php echo $id; ?> .bbcs-zig-zag:before {

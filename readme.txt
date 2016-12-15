@@ -22,7 +22,7 @@ Column separator for Beaver Builder. Separate Beaver Builder columns with differ
 
 3. Activate the plugin through the 'Plugins' screen in WordPress
 
-4. Find this plugin module in `Page Builder` -> `Add Content` -> `Advance Modules` -> `Column Separator for Beaver Builder`
+4. Find this plugin module in `Page Builder` -> `Add Content` -> `Advance Modules` -> `Column Separator`
 
 == Changelog ==
 

@@ -1,5 +1,4 @@
 .bbcs-container {
-	position: relative;
 	z-index: 1;
 }
 .bbcs-container svg {
@@ -10,8 +9,9 @@
 }
 .bbcs-identify {
 	position: absolute;
-    color: red !important;
-    z-index: 10;
-    -webkit-transform: translate(25%);
-    transform: translate(25%);
+	width: 100%;
+    text-align: center;
+    background-color: #c7c7c7;
+    color: #000;
+    z-index: 15;
 }

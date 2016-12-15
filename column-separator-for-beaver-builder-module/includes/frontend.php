@@ -28,7 +28,7 @@
 <?php if ( FLBuilderModel::is_builder_active() ): ?>
 	<div class="bbcs-identify-container">
 		<div class="bbcs-identify">
-			Column Seperator (for backend only)
+			Click here to edit the "Column Separator" settings. This text will not vissible on frontend.
 		</div>
 	</div>
 <?php endif ?>
