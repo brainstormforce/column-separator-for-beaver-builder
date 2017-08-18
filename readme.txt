@@ -4,7 +4,7 @@ Donate link: https://www.brainstormforce.com/payment/
 Requires at least: 4.4
 Tags: beaver builder, page builder plugin, column, separator, column separator, style, simple column
 Stable tag: 1.0.0
-Tested up to: 4.7
+Tested up to: 4.8.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
