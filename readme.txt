@@ -1,10 +1,9 @@
 === Column Separator for Beaver Builder ===
-Contributors: brainstormforce
-Donate link: https://www.paypal.me/BrainstormForce
+Contributors: pratikchaskar
 Requires at least: 4.4
 Tags: beaver builder, page builder plugin, column, separator, column separator, style, simple column
-Stable tag: 1.0.0
-Tested up to: 6.0
+Stable tag: 1.0.1
+Tested up to: 6.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -25,6 +24,9 @@ Column separator for Beaver Builder. Separate Beaver Builder columns with differ
 4. Find this plugin module in `Page Builder` -> `Add Content` -> `Advance Modules` -> `Column Separator`
 
 == Changelog ==
+
+= 1.0.1 =
+- Improvement: Added compatibility to WordPress 6.1
 
 = 1.0.0 =
 - Initial release
