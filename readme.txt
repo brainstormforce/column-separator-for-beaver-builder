@@ -1,6 +1,5 @@
 === Column Separator for Beaver Builder ===
 Contributors: pratikchaskar
-Donate link: https://www.paypal.me/BrainstormForce
 Requires at least: 4.4
 Tags: beaver builder, page builder plugin, column, separator, column separator, style, simple column
 Stable tag: 1.0.1
