@@ -25,6 +25,9 @@ Column separator for Beaver Builder. Separate Beaver Builder columns with differ
 
 == Changelog ==
 
+= 1.0.2 =
+- Improvement: Improved codebase for improved security.
+
 = 1.0.1 =
 - Improvement: Added compatibility to WordPress 6.1
 
