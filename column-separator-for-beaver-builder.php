@@ -4,8 +4,8 @@
  * Plugin URI: http://www.brainstormforce.com
  * Description: This is the plugin to create column separator in beaver builder.
  * Version: 1.0.2
- * Author: Pratik Chaskar
- * Author URI: https://pratikchaskar.com/
+ * Author: Brainstorm Force, Pratik Chaskar
+ * Author URI: https://brainstormforce.com/
  * License: GNU General Public License v3.0
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain: bb-column-separator
