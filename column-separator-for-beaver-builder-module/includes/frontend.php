@@ -4,7 +4,7 @@
 	$svg_color = '#'.(( $settings->bbcs_color != '' ) ? $settings->bbcs_color : 'c7c7c7') ;
 	$svg_height = ( $settings->bbcs_size != '' ) ? $settings->bbcs_size : '100' ;
 	if( $settings->bbcs_shape == 'triangle' ) {
-		$shape_html = '<svg class="'.esc_attr( $cs_classes ).'" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="'.esc_attr( $svg_color ).'" width="100%" height="'.esc_attr( $svg_height ).'" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none"><path class="fil0" d="M-0 0.333331l4.66666 0 0 -3.93701e-006 -2.33333 0 -2.33333 0 0 3.93701e-006zm0 -0.333331l4.66666 0 0 0.166661 -4.66666 0 0 -0.166661zm4.66666 0.332618l0 -0.165953 -4.66666 0 0 0.165953 1.16162 -0.0826181 1.17171 -0.0833228 1.17171 0.0833228 1.16162 0.0826181z"/></svg>';
+		$shape_html = '<svg class="'. esc_attr( $cs_classes ).'" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="'.esc_attr( $svg_color ).'" width="100%" height="'.esc_attr( $svg_height ).'" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none"><path class="fil0" d="M-0 0.333331l4.66666 0 0 -3.93701e-006 -2.33333 0 -2.33333 0 0 3.93701e-006zm0 -0.333331l4.66666 0 0 0.166661 -4.66666 0 0 -0.166661zm4.66666 0.332618l0 -0.165953 -4.66666 0 0 0.165953 1.16162 -0.0826181 1.17171 -0.0833228 1.17171 0.0833228 1.16162 0.0826181z"/></svg>';
 	}
 	elseif ( $settings->bbcs_shape == 'left-triangle' || $settings->bbcs_shape == 'right-triangle' ) {
 		$shape_html = '<svg class="'.esc_attr( $cs_classes ).'" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="'.esc_attr( $svg_color ).'" width="100%" height="'.esc_attr( $svg_height ).'" viewBox="0 0 2000 90" preserveAspectRatio="none"><polygon xmlns="http://www.w3.org/2000/svg" points="535.084,64.886 0,0 0,90 2000,90 2000,0 "></polygon></svg>';
