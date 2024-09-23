@@ -1,7 +1,7 @@
 === Column Separator for Beaver Builder ===
 Contributors: pratikchaskar
 Requires at least: 4.4
-Tags: beaver builder, page builder plugin, column, separator, column separator, style, simple column
+Tags: beaver builder, page builder plugin, column separator, style, simple column
 Stable tag: 1.0.2
 Tested up to: 6.6
 License: GPLv3
