@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Column Separator For Beaver Builder
- * Plugin URI: http://www.brainstormforce.com
+ * Plugin URI: https://pratikchaskar.com/
  * Description: This is the plugin to create column separator in beaver builder.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Pratik Chaskar
  * Author URI: https://pratikchaskar.com/
  * License: GNU General Public License v3.0
