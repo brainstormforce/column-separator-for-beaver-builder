@@ -3,7 +3,7 @@ Contributors: pratikchaskar
 Requires at least: 4.4
 Tags: beaver builder, page builder plugin, column separator, style, simple column
 Stable tag: 1.0.3
-Tested up to: 7.0
+Tested up to: 7.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
